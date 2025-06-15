@@ -16,7 +16,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="vi">
+    <html lang="vi" className="mdl-js">
       <body className={inter.className}>
         <AuthProvider>
           <ProductProvider>
